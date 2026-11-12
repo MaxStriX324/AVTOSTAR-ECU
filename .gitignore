@@ -1,0 +1,34 @@
+# KiCad user-specific files and recovery folders
+*-backups/
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.lck
+*.kicad_wks-bak
+fp-info-cache
+_autosave-*
+# Local generated manufacturing / design outputs
+**/gerbers/
+**/drill/
+**/plots/
+**/3d-render-output/
+# Build caches and firmware binaries (released binaries are attached to verified releases)
+**/build/
+**/.pio/
+*.elf
+*.hex
+*.bin
+*.map
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+# Do not commit keys, authentication data or vehicle/customer data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/

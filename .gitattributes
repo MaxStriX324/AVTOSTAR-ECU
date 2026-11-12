@@ -1,0 +1,9 @@
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_pro text eol=lf
+*.svg text eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary
+*.step binary
+*.stp binary
