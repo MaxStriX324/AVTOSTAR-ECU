@@ -27,6 +27,8 @@
 - [CAN-протокол и диагностика](communications.md)
 - [Безопасность, питание и испытания](safety-validation.md)
 - [Интеграция с ПАЗ-3206 и roadmap](paz-3206.md)
+- [Каталог первичных документов, ссылки и SHA-256 PDF](references/README.md)
+- [Список источников по проводке ПАЗ-3206 (2001)](references/PAZ-3206-wiring-references.md)
 - [Разбор двух PDF: ПАЗ-3206-110 и электрические схемы Vector NEXT](references/paz-document-review-20261119.md)
 
 ## Уровень готовности
