@@ -41,3 +41,10 @@
 - [ST RM0090 STM32F405 bxCAN](https://www.st.com/resource/en/reference_manual/dm00031020-stm32f405-415-stm32f407-417-stm32f427-437-and-stm32f429-439-advanced-arm-based-32-bit-mcus-stmicroelectronics.pdf)
 - [Microchip MCP2518FD](https://www.microchip.com/en-us/product/MCP2518FD)
 - [NXP TJA1051 — трансивер, вариант с VIO для 3.3 В требует проверки артикула](https://www.nxp.com/products/interfaces/can-transceivers/can-with-flexible-data-rate/high-speed-can-transceiver%3ATJA1051)
+
+## Дополнения, подтверждённые 19.11.2026
+
+- Для первого ПАЗ подтверждены номинал 12 В и лампы накаливания; целевая система модулей — 12/24 В при отдельно рассчитанных защитах. См. [power-12-24.md](power-12-24.md).
+- Одна PCB BCM-F/R-OUT с вариантами неполной комплектации силовых каскадов (DNP). Изначальная ёмкость до 24 каналов остаётся кандидатом до теплового и токового расчёта; установленное оборудование и ограничения проверяются прошивкой.
+- Поддержка LED реализуется отдельно настраиваемыми токовыми профилями после фактической калибровки; программные пороги не отменяют аппаратную защиту.
+- Для ECM-IO планируются два защищённых частотных входа VSS (раздатка и КПП) плюс отдельный RPM. Подробнее — [transmission-analysis.md](transmission-analysis.md).
